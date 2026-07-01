@@ -9,12 +9,28 @@
     "test": "jest --detectOpenHandles"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "mongoose": "^8.4.1"
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "mongoose": "^8.24.1"
   },
   "devDependencies": {
     "jest": "^29.7.0",
     "mongodb-memory-server": "^10.0.0",
     "supertest": "^7.0.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSE-Programacion-2/ejercitacion-de-arquitectura-por-capas-FacuHere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/UCSE-Programacion-2/ejercitacion-de-arquitectura-por-capas-FacuHere/issues"
+  },
+  "homepage": "https://github.com/UCSE-Programacion-2/ejercitacion-de-arquitectura-por-capas-FacuHere#readme"
 }
